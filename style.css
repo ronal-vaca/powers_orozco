@@ -1,0 +1,133 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family:'Roboto', sans-serif;
+    color: white;
+}
+header{
+    background-image: url(img/pexels-vlada-karpovich-4050347.jpg);
+    height: 100vh;
+    background-position: center;
+    /* filter: grayscale(100); */
+}
+.titulo-cabecera{
+    color: white;
+    font-size: 30px;
+}
+.nav-link{
+    color: white;
+}
+h1{
+    font-size: 80px;
+    display: inline-block;
+    margin: 0px;
+}
+p{
+    margin: 0px;
+}
+.titulo{
+    height: 100vh;
+}
+.principal{
+    border-style: double;
+    border-width: 5px;
+    margin: 0px;
+}
+.nosotros{
+    /* background-image: url(img/pexels-faaiq-ackmerd-1025469.jpg); */
+}
+
+.nosotros h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.nosotros p{
+    text-align: center;
+    font-size: 18px;
+}
+.img-nosotros{
+    width: 600px;
+    height: 370px;
+    border-radius: 5px;
+}
+.carta{
+    border-top: 5px solid #0D6EFD;
+    /* background-image: url(img/drew-beamer-kUHfMW8awpE-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-position: top; */
+    height: 500px;
+    background-color: #FFF;
+    /* border-radius: 5px; */
+    box-shadow: -2px 4px 22px -6px rgba(0,0,0,0.55);
+}
+
+.seccion-servicios{
+    /* background-color: #0D6EFD; */
+    background-color: #FFF;
+}
+.servicios{
+    /* background-color: #001C31; */
+    background-color: #FFF;
+}
+.icono{
+    background-color: #0D6EFD;
+    color: white;
+    font-size: 45px;
+    border-radius: 30px;
+    padding: 10px;
+}
+.menu-servicios li{
+    margin-top: 10px;
+}
+
+.whatsapp{
+    background: #61CE70;
+    padding: 15px 30px;
+    border: 0px;
+}
+.navbar-toggler-icon{
+    color: #FFF;
+}
+
+
+.imagen-contact{
+    border-radius: 500px;
+    width: 350px;
+    height: 350px;
+    /* border: 5px solid black ; */
+    /* border-color: #0D6EFD; */
+}
+@media (max-width:375px){
+    .titulo-cabecera{
+        font-size: 20px;
+    }
+    
+
+}
+@media (max-width:425px){
+    
+    .menu-servicios{
+        display: none;
+    }
+    .carta{
+        height: 300px;
+    }
+    #collapseExample{
+        position: absolute;
+    }
+}
+
+@media (max-width:767px){
+    .nosotros-1 .noso{
+        order: -1;
+    }
+    
+}
+@media (min-width:426px){
+    .boton-colapsado{
+        display: none;
+    }
+}
